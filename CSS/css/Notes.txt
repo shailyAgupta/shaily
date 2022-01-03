@@ -1,0 +1,39 @@
+there are 3 types :
+
+type selector -> style will appply to all element
+desendance selector-> style will apply to specific element 
+class selector-> style will apply to specified class with .
+
+Box modal
+
+web page is collection of box model
+
+
+
+list style:none to remove boolets from list
+
+text-decoration:none to remove underline from list
+letter-spacing
+word-spacing
+text-transfor:uppercase;
+box-shadow:inset -> it will push shadow inside of box
+transfom:rotate(25deg) -> will rotate the content
+transfom:scale to increase scale
+
+
+backgroung-image:linear-gredient(to bottom,color,color)
+
+text-indent:25px if u want to indent on element
+
+text-indent:-9999px; -> hides the text
+
+position:relative
+position:absolute -> remove element from natural flow of pg and instead position it in relation to ancestor element . will look for closest ancestor element that uses position relative and will use that element as its frame of referance 
+
+z-index will overlap on other element
+
+transition-property:color,background-color
+transition-duration: 2s -> it will take 2s to change color after hover mouse
+transition:translateY(100%) -> it will move content down of the box
+opacity:1;
+

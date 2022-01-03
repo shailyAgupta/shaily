@@ -1,0 +1,138 @@
+html{
+    background-color: #6d8344;
+}
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+    padding: 100px 40px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+header h1{
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+header p{
+    margin: 0;
+}
+header{
+    padding-top: 20px;
+   
+    color: rgb(102, 59, 93);
+}
+.container{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.content-area{
+    border-top: 3px solid rgb(197, 70, 70);
+    border-bottom: 3px solid rgb(197, 70, 70);
+
+}
+
+.main_area{
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width: 34%;
+    float: left;
+    background-color: #deeec0;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    
+}
+footer{
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.fix{
+    clear: both;
+}
+.group::before,
+.group::after{
+    content: "";
+    display: table;
+
+}
+.group::after{
+    clear: both;
+}
+.group{
+    zoom: 1;
+}
+/*SIde Nav*/
+
+.side-nav{
+    margin-top: 20px;
+}
+.side-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.side-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.side-nav a{
+    display: block;
+    color: rgb(243, 135, 135);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid rgb(207, 180, 243);;
+    border-bottom: none;
+}
+.side-nav a:hover{
+    background-color: #6d8344;
+}
+
+
+/*Banner Overlay*/
+
+.img-banner img{
+    display: block;
+    transition: all 1s;
+}
+
+.img-banner{
+    position: relative;
+    overflow: hidden;
+}
+.img-banner:hover img{
+    transform: scale(1.5);
+}
+.img-banner:hover .banner-description{
+    transform: translateY(0);  
+    opacity: 1; 
+}
+
+.banner-description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0,0, 0,.65);
+    padding: 15px 25px;
+    transform: translateY(100%);
+    transition: all 1s;
+    opacity: 0;
+}
